@@ -12,10 +12,10 @@
 ## Routes
 
   - `/api/v1/users`          `POST`       `{email: 'example@test.com', password: '123456'}`
-  - `api/v1/users/sessions`  `POST`       `{email: 'example@test.com', password: '123456'}`
+  - `/api/v1/users/sessions`  `POST`       `{email: 'example@test.com', password: '123456'}`
   - `/api/v1/users/me`       `GET`        Returns current user
   - `/api/v1/users`          `GET`        Authorized endpoint - returns all users for admin
-  - `api/v1/users/sessions`  `DELETE`     Deletes a user session
+  - `/api/v1/users/sessions`  `DELETE`     Deletes a user session
 
   - `/api/v1/items`           `POST`      `{title: '', create_at: '', body: '', completed: boolean, user_id: int}`
   - `/api/v1/items/:id`       `PUT`       Updates an item
