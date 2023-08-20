@@ -1,0 +1,26 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "backend express application with postgres for users and items",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-Robson/express-api.git"
+  },
+  "keywords": [
+    "javascript",
+    "express",
+    "postgres",
+    "node"
+  ],
+  "author": "adaam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adam-Robson/express-api/issues"
+  },
+  "homepage": "https://github.com/Adam-Robson/express-api#readme"
+}
