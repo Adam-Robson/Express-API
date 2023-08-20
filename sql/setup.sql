@@ -10,9 +10,9 @@ CREATE TABLE users (
 CREATE TABLE items (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   created_at TIMESTAMPTZ DEFAULT NOW(),
-  user_id BIGINT,
   title VARCHAR,
   body VARCHAR,
   completed BOOLEAN DEFAULT(false),
+  user_id BIGINT,
   FOREIGN KEY (user_id) REFERENCES users(id)
   );
