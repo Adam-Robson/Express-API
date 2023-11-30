@@ -26,7 +26,7 @@ at Alchemy Code Lab, in Portland, Oregon.
 
 ## Features
 
-An exercise in tracking state with the React Context API.
+This backend application uses Express to create a server and uses Postgres to create a database.  It includes authorization and authentication for creating and managing a user base, as well as the functionality to Create Read Update and Delete items stored in the database.
 
 ## Run Locally
 
