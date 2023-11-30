@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  line-height: 1.3rem;
+  background-color: #e4e4e4ff;
+  color: #444140ff;
+}
+
+.container {
+  max-width: 50px;
+  width: 100%;
+  padding: 1.25rem;
+}
